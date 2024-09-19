@@ -9,15 +9,14 @@ public class Balok extends BangunRuang {
         this.tinggi = tinggi;
     }
 
+    // saya menggunakan overriding
     @Override
     public double hitungVolume(double panjang, double lebar, double tinggi) {
-        System.out.println("Menghitung volume Balok");
-        return super.hitungVolume(panjang, lebar, tinggi); 
+        return super.hitungVolume(this.panjang, this.lebar, this.tinggi); 
     }
 
     @Override
     public double hitungLuasPermukaan(double panjang, double lebar, double tinggi) {
-        System.out.println("Menghitung luas permukaan Balok");
-        return super.hitungLuasPermukaan(panjang, lebar, tinggi); 
+        return super.hitungLuasPermukaan(this.panjang, this.lebar, this.tinggi); 
     }
 }

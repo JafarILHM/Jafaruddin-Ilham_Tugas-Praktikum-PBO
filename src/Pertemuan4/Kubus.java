@@ -6,16 +6,15 @@ public class Kubus extends BangunRuang {
     public Kubus(double sisi) {
         this.sisi = sisi;
     }
-
+    
+    // saya menggunakan overriding
     @Override
     public double hitungVolume(double sisi) {
-        System.out.println("Menghitung volume Kubus");
-        return super.hitungVolume(sisi); 
+        return super.hitungVolume(this.sisi); 
     }
 
     @Override
     public double hitungLuasPermukaan(double sisi) {
-        System.out.println("Menghitung luas permukaan Kubus");
-        return super.hitungLuasPermukaan(sisi); 
+        return super.hitungLuasPermukaan(this.sisi); 
     }
 }
