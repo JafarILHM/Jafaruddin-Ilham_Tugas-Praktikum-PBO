@@ -31,8 +31,8 @@ public class IndeksMassaTubuh {
         }
 
         // Output hasil 
-        System.out.println("\nNilai IMT: " + imt);
-        System.out.println("Kriteria: " + kriteria);
+        System.out.println("\nNilai IMT : " + imt);
+        System.out.println("Kriteria    : " + kriteria);
 
         scanner.close();
     }

@@ -7,22 +7,22 @@ public class NilaiMahasiswa {
         Scanner scanner = new Scanner(System.in);
         
         // Input dari pengguna
-        System.out.print("NPM : ");
+        System.out.print("NPM             : ");
         String npm = scanner.nextLine();
         
-        System.out.print("Nama Mahasiswa : ");
+        System.out.print("Nama Mahasiswa  : ");
         String nama = scanner.nextLine();
         
         System.out.print("Nilai Kehadiran : ");
         double nilaiKehadiran = scanner.nextDouble();
         
-        System.out.print("Nilai Tugas : ");
+        System.out.print("Nilai Tugas     : ");
         double nilaiTugas = scanner.nextDouble();
         
-        System.out.print("Nilai UTS : ");
+        System.out.print("Nilai UTS       : ");
         double nilaiUTS = scanner.nextDouble();
         
-        System.out.print("Nilai UAS : ");
+        System.out.print("Nilai UAS       : ");
         double nilaiUAS = scanner.nextDouble();
 
         // Proses menghitung nilai akhir
@@ -51,11 +51,11 @@ public class NilaiMahasiswa {
         
         // Tampilkan hasil output
         System.out.println("\nTampilan Output");
-        System.out.println("NPM Mahasiswa : " + npm);
-        System.out.println("Nama Mahasiswa : " + nama);
+        System.out.println("NPM Mahasiswa   : " + npm);
+        System.out.println("Nama Mahasiswa  : " + nama);
         System.out.println("Nilai Rata-rata : " + nilaiAkhir);
-        System.out.println("Grade : " + grade);
-        System.out.println("Keterangan : " + keterangan);
+        System.out.println("Grade           : " + grade);
+        System.out.println("Keterangan      : " + keterangan);
 
         scanner.close();
     }
